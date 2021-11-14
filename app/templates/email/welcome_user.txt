@@ -1,0 +1,4 @@
+Hello {{user.username}}
+Payonner Blogger is pleased to welcome you.
+You've completed the application's registration process and can now begin sharing your blogs with the rest of the world.
+Best wishes.
