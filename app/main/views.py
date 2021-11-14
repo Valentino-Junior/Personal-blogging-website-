@@ -56,7 +56,7 @@ def new_post():
 def all_posts():
     posts = Post.query.order_by(Post.date_posted.desc()).all()
 
-    title = 'Blogger posts'
+    title = 'Payoneer Blogger Posts'
 
     return render_template('posts.html', title=title, posts=posts)
 
