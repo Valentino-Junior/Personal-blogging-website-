@@ -1,0 +1,3 @@
+Hello {{user.username}},
+
+A new post has been published on Payoneer Blogger.
