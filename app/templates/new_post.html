@@ -2,12 +2,11 @@
 {% import "bootstrap/wtf.html" as wtf %}
 
 {% block content %}
-    <div class="container">
-        <div class="col-md-12">
-            <h3>Create a post</h3>
+    <div class="container text-center">
+        <div class="col-md-10">
+            <h3><b>Create a Blog</b></h3>
             <hr>
             {{ wtf.quick_form(post_form) }}
-            <!-- {{simplemde.load}} -->
         </div>
 
     </div>
