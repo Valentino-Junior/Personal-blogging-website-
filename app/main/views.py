@@ -6,6 +6,8 @@ from .forms import PostForm, CommentForm
 from flask_login import login_required, current_user
 import datetime
 from ..email import mail_message
+# from ..requests import get_quote
+
 
 #Views
 
@@ -16,6 +18,7 @@ def index():
     View root page function that returns the index page and its data
     '''
     posts = Post.query.order_by(Post.date_posted.desc()).limit(3).all()
+    # quote = get_quote()
 
     title = 'Home - Welcome to Payonner Blogger'
 
