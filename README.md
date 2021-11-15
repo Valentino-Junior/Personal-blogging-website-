@@ -5,12 +5,12 @@ Valentino Junior
 # Description
  Payoneer Blog is an application that lets authors to create, update, and delegate blogs. It also allows users who have signed up to provide comments on a writer's blog posts. It also allows users to subscribe to get email notifications whenever a writer publishes a new blog.
 # Behavior Driven Development (BDD)
-## The most recent postings may be viewed, but comments cannot be made unless the user is logged in.
-## On the site, users will be able to see random quotations.
-## By subscribing, the user will receive an email notice whenever a new post is created.
-## Users who have registered will be able to access the application.
-## After logging in, users will be able to leave comments on the site's blog postings.
-## The writer can use the program to create a blog and then update or remove it.
+1. The most recent postings may be viewed, but comments cannot be made unless the user is logged in.
+2. On the site, users will be able to see random quotations.
+3. By subscribing, the user will receive an email notice whenever a new post is created.
+4. Users who have registered will be able to access the application.
+5. After logging in, users will be able to leave comments on the site's blog postings.
+6. The writer can use the program to create a blog and then update or remove it.
 
 
 
