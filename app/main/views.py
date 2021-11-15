@@ -37,16 +37,17 @@ def new_post():
 
         # Save post method
         new_post.save_post()
-
-        for user in users:
-            if user.subscription:
-                mail_message("New Post", "email/new_post",
-                                user.email, user=user)
-
         return redirect(url_for('.index'))
 
-    else:
-        return redirect(url_for('.index'))
+        # for user in users:
+        #     if user.subscription:
+        #         mail_message("New Post", "email/new_post",
+        #                         user.email, user=user)
+
+        # return redirect(url_for('.index'))
+
+    # else:
+    #     return redirect(url_for('.index'))
 
     title = 'New post'
     return render_template('new_post.html', title=title, post_form=post_form)
@@ -131,3 +132,5 @@ def update_post(id):
         return redirect(url_for('main.post', id=post.id))
 
     return render_template('update.html', form=form)
+
+
