@@ -7,7 +7,7 @@
 {%endblock%}
 <!-- Content block -->
 {%block content%}
-<div class="container">
+<div class="container text-center btn-info" style="color: black;">
     <div class="row">
         <h3>{{post.title}}</h3>
         <hr>
@@ -20,7 +20,7 @@
         {%endif%}
     </div>
     <div class="row">
-        <h4>Comments</h4>
+        <h4><b>Comments</b></h4>
         <hr>
         {% if current_user.is_authenticated %}
             {{ wtf.quick_form(form) }}
