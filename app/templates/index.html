@@ -8,14 +8,14 @@
 {%endblock%}
 
 {%block content%}
-<div class="container" style="padding-bottom: 20px;">
-  <a href="{{url_for('main.new_post')}}" class="btn btn-success">Create post</a>
+<div class="container" style="padding-bottom: 20px;"><br><br>
+  <a href="{{url_for('main.new_post')}}" class="btn btn-warning">Create Post</a>
 </div>
 
 </div>
 <div class="container">
-    <h1>Recent posts</h1>
-    <a href="/subscribe/{{current_user.id}}" class="btn btn-success">Subscribe</a>
+    <h1>Recent Posts</h1>
+    <a href="/subscribe/{{current_user.id}}" class="btn btn-warning">Subscribe</a>
     <hr>
     {{macro.displayPosts(posts)}}
 </div>
