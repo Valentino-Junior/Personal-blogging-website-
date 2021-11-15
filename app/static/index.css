@@ -4,3 +4,10 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+#object{
+    background-image: url(./photos/b8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
